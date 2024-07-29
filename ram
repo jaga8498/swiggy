@@ -3,3 +3,6 @@ Now link github repo to local system  : git remote add origin github-repo-url
 Now push the source code to github : git push -u origin branch_name
  Then it will ask username : provider github username 
 Now it will ask password : generate a token and paste here
+ fetch : check the changes from central
+ if changes are present then we will merge to local
+ merge : getting the chages from github 
