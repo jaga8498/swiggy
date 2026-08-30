@@ -7,6 +7,9 @@ jobs:
     - name: clone the code
       uses: actions/checkout@v4
 
+    - name: create the new file
+      run: tocuh index.html
+
     - name: print indec.html
       run:  cat index.html
       
