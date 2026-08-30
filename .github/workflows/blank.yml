@@ -1,13 +1,14 @@
-name: jagadeesh
-on: 
-  push:
-    branches:
-      - main 
+name: rama
+on: push
 jobs:
   one:
     runs-on: ubuntu-latest
     steps:
-      - name: build  
-        run: echo "my password ${{ secrets.my_secret }}"
+    - name: clone the code
+      uses: actions/checkput@v4
+
+    - name: print indec.html
+      run:  cat index.html
+      
          
     
