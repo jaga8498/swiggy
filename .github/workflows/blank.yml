@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: clone the code
-      uses: actions/checkput@v4
+      uses: actions/checkoput@v4
 
     - name: print indec.html
       run:  cat index.html
