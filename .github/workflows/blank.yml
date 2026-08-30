@@ -2,7 +2,7 @@ name: jagadeesh
 on: 
   push:
   branches:
-    - main: 
+    - main 
  jobs:
     one:
       runs-on: ubuntu-latest
