@@ -8,7 +8,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: create the new file
-      run: tocuh index.html
+      run: touch index.html
 
     - name: print indec.html
       run:  cat index.html
