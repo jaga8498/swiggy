@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: build  
-        run: echo "hello wold"
+        run: echo "my password ${{ secrets.my_secret }}"
          
     
