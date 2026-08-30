@@ -3,11 +3,11 @@ on:
   push:
     branches:
       - main 
- jobs:
-    one:
-      runs-on: ubuntu-latest
-      steps:
-         - name: build  
-           run: echo "hello wold"
+jobs:
+  one:
+    runs-on: ubuntu-latest
+    steps:
+      - name: build  
+        run: echo "hello wold"
          
     
